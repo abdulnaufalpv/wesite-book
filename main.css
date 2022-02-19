@@ -1,0 +1,66 @@
+body {
+    min-height: 100vh;display: flex;justify-content: center;margin: 0;
+    align-items: center; color: #fff;background: #ffffff;
+}
+.images {
+    flex: 0 0 100%;
+    min-height: 70vh;
+    background: url(images/a_.jpg)no-repeat center/cover;
+    border-radius: 15px;
+    
+    position: relative;
+}
+.btn {
+    display: inline-block;
+    background: white;
+    color: black;
+    border: 3px solid green;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-radius: 20%;
+    box-shadow: 2px 5px black;
+    outline: none;
+    cursor: pointer;
+}
+.btn:active {
+    background: grey;
+    box-shadow: 1px 1px grey;
+}
+.btn:hover {
+    background: green;
+    color: white;
+}
+.prevBtn {
+    position: absolute;
+    top: 110%;left: 0;
+   
+}
+.nextBtn {
+    position: absolute;
+    top: 110%;right: 0;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
